@@ -84,6 +84,7 @@ local function initialize()
 		'Waypoint',
 		'AIDriver',
 		'CombineUnloadAIDriver',
+		'CombineUnloadManager',
 		'GrainTransportAIDriver',
 		'FieldworkAIDriver',
 		'FillableFieldworkAIDriver',
