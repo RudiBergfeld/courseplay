@@ -1173,7 +1173,7 @@ function courseplay:onDelete()
 	if self.cp.driver and self.cp.driver.collisionDetector then
 		self.cp.driver.collisionDetector:deleteTriggers()
 	end
-	
+	g_combineUnloadManager:removeCombineFromList(self)
 --[[	
 	--TODO Tommi: remove this when we are completely on AIDriver
 	for i=#self.cp.trafficCollisionTriggers,1,-1 do
